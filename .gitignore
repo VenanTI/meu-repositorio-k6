@@ -1,0 +1,13 @@
+# Common ignores
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+.env
+
+# IDEs
+.vscode/
+.idea/
+
+# k6 typically doesn't need build artifacts, but ignore common OS files
+npm-debug.log*
